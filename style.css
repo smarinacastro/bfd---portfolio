@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    gap: 20px;
+}
+
+.nome {
+    width: 400px;
+    height: auto;
+    margin-top: 10vh;
+}
+
+.bloco-central {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.icone {
+    width: 200px;
+    height: auto;
+    margin-top: -40px;
+}
+
+.icone:hover {
+    content: url('icon2-estrela.png');
+}
+
+.esquerdo,
+.direito {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 200px;
+    line-height: 1.5;
+}
+
+.esquerdo {
+    text-align: right;
+}
+
+.direito {
+    text-align: left;
+}
+
+.bio {
+    text-align: center;
+    margin-top: 30px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+    color: white;
+    background-color: black;  
+    font-weight: bold;  
+}
+
+a {
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 1.5;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(228, 107, 124);
+}
+
+a:hover {
+    color: rgb(228, 107, 124);
+    transition: 0.3s ease;
+}
+
+h3,
+a,
+p {
+    font-size: 16px;
+}
+
+.estrela1,
+.estrela2 {
+    position: fixed;
+    width: 60px;
+    height: auto;
+    z-index: 10;
+}
+
+.estrela1 {
+    top: 30%;
+    left: 20px;
+    margin-left: 250px;
+}
+
+.estrela1:hover {
+    content: url('estrela1.png');
+}
+
+.estrela2 {
+    top: 70%;
+    right: 20px;
+    margin-right: 250px;
+}
+
+.estrela2:hover {
+    content: url('estrela2.png');
+}
